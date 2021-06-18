@@ -1,10 +1,10 @@
 
-import React from 'react';
 // eslint-disable-next-line no-unused-vars
-import {FaCross, FaPen, FaRegCircle, FaTimes} from 'react-icons/fa';
+import React from 'react';
+import {FaCross, FaPen, FaRegCircle} from 'react-icons/fa';
 
 //  properties is passed into it
-const Icon = ({name}) =>{
+export default function Icon({name}){
     switch (name) {
         case "cross":
             return<FaCross className="icons"/>
@@ -15,4 +15,3 @@ const Icon = ({name}) =>{
     }
     // if place is empty pen will come or
 };
-export default Icon;

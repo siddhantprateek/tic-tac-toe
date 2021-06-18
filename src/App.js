@@ -1,5 +1,5 @@
 
-import React ,{useState} from "react";
+import React ,{ useState } from "react";
 import Icon from "./Components/Icon";
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
@@ -93,18 +93,18 @@ const App = () => {
               <h1 className="text-success text-uppercase text-center">
                 {winMessage}
               </h1>
-              <Button color="success" block onClick={reloadGame}>
+              <Button outline color="success" block onClick={reloadGame}>
                 Reload the game
               </Button>
             </div>
           ) : (
             <h1 className="text-center text-warning">
-              {isCross ? "Cross" : "Circle"} turns
+              {isCross ? "Player(X)" : "Player(O)"} Turn
             </h1>
           )}
           <div className="grid">
             {itemArray.map((item, index) => (
-              <Card color="" onClick={() => changeItem(index)}>
+              <Card color="warning" onClick={() => changeItem(index)}>
                 <CardBody className="box">
                   <Icon name={item} />
                 </CardBody>

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
-    background-color: #000000;
+    background-color: #3f3b3b;
+    font-family: 'Poppins', sans-serif;
 }
 
 .grid {
@@ -9,6 +11,7 @@ body {
 }
 
 .box {
+    background-color: #575151;
     width: auto;
     height: 100px;
     display: flex;
@@ -17,6 +20,6 @@ body {
 }
 
 .icon {
-    font-size: 35px;
-    color: #ffffff;
+    font-size: 105px;
+    color: #000000;
 }
