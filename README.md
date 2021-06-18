@@ -1,5 +1,6 @@
-# Tic Tac Toe
 
+# Tic Tac Toe
+![TICTACTOE](https://user-images.githubusercontent.com/43869046/122575073-fc6dd080-d06d-11eb-8306-df16b50e6024.png)
 ### Tech Stack
 * React Js
 * Reactstrap
